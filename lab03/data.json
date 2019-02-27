@@ -1,0 +1,512 @@
+[
+    {
+        "name": "PUNYAWEE",
+        "lastname": "JUNGCHAROEN",
+        "nickname": "AOM",
+        "dateOfBirth": "20 September 1995",
+        "height": "157",
+        "province": "Chiang Mai",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "JANISTA",
+        "lastname": "TANSIRI",
+        "nickname": "BAMBOO",
+        "dateOfBirth": "3 September 2002",
+        "height": "167",
+        "province": "Samut Prakan",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    },    
+    {
+        "name": "NAWAPORN",
+        "lastname": "CHANSUK",
+        "nickname": "CAKE",
+        "dateOfBirth": "18 November 1996",
+        "height": "162",
+        "province": "Bangkok",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    },
+    {
+        "name": "CHERPRANG",
+        "lastname": "AREEKUL",
+        "nickname": "CHERPRANG",
+        "dateOfBirth": "2 May 1996",
+        "height": "160",
+        "province": "Bangkok",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "PIMNIPA",
+        "lastname": "TUNGSAKUL",
+        "nickname": "DEENEE",
+        "dateOfBirth": "28 November 2001",
+        "height": "172",
+        "province": "Bangkok",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    },
+    {
+        "name": "SUMITRA",
+        "lastname": "DUANGKAEW",
+        "nickname": "FAII",
+        "dateOfBirth": "28 JUNE 1996",
+        "height": "165",
+        "province": "Lamphun",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "PAWEETHIDA",
+        "lastname": "SAKUNPIPHAT",
+        "nickname": "FIFA",
+        "dateOfBirth": "6 November 2001",
+        "height": "163",
+        "province": "Bangkok",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "NATTICHA",
+        "lastname": "CHANTARAVAREELEKHA",
+        "nickname": "FOND",
+        "dateOfBirth": "3 December 2002",
+        "height": "158",
+        "province": "Prachuap Khiri Khan",
+        "bloodGroup": "A",
+        "Group": "BNK48"
+    },
+    {
+        "name": "NUTTAKUL",
+        "lastname": "PIMTONGCHAIKUL",
+        "nickname": "GYGEE",
+        "dateOfBirth": "4 October 2001",
+        "height": "162",
+        "province": "Bangkok",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    },
+    {
+        "name": "RINA",
+        "lastname": "IZUTA",
+        "nickname": "IZURINA",
+        "dateOfBirth": "26 November 1995",
+        "height": "158",
+        "province": "Saitama, Japan",
+        "bloodGroup": "A",
+        "Group": "BNK48"
+    },
+    {
+        "name": "NAPAPHAT",
+        "lastname": "WORRAPHUTTANON",
+        "nickname": "JAA",
+        "dateOfBirth": "20 January 2003",
+        "height": "160",
+        "province": "Bangkok",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "KUNJIRANUT",
+        "lastname": "INTARASIN",
+        "nickname": "JANE",
+        "dateOfBirth": "23 March 2000",
+        "height": "159",
+        "province": "Pathum Thani",
+        "bloodGroup": "A",
+        "Group": "BNK48"
+    },
+    {
+        "name": "JENNIS",
+        "lastname": "OPRASERT",
+        "nickname": "JENNIS",
+        "dateOfBirth": "4 July 2000",
+        "height": "161",
+        "province": "Petchaburi",
+        "bloodGroup": "o",
+        "Group": "BNK48"
+    },
+    {
+        "name": "SUCHAYA",
+        "lastname": "SAENKHOT",
+        "nickname": "JIB",
+        "dateOfBirth": "4 July 2002",
+        "height": "159",
+        "province": "Lopburi",
+        "bloodGroup": "A",
+        "Group": "BNK48"
+    },
+    {
+        "name": "PLEARNPICHAYA",
+        "lastname": "KOMALARAJUN",
+        "nickname": "JUNÉ",
+        "dateOfBirth": "4 July 2000",
+        "height": "171",
+        "province": "Bangkok",
+        "bloodGroup": "A",
+        "Group": "BNK48"
+    },
+    {
+        "name": "NATRUJA",
+        "lastname": "CHUTIWANSOPON",
+        "nickname": "KAEW",
+        "dateOfBirth": "31 March 1994",
+        "height": "156",
+        "province": "Chonburi",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "WARATTAYA",
+        "lastname": "DEESOMLERT",
+        "nickname": "KAIMOOK",
+        "dateOfBirth": "27 August 1997",
+        "height": "153",
+        "province": "Bangkok",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    },
+    {
+        "name": "KORAPAT",
+        "lastname": "NILPRAPA",
+        "nickname": "KATE",
+        "dateOfBirth": "9 June 2001",
+        "height": "162",
+        "province": "Phayao",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "MANIPA",
+        "lastname": "ROOPANYA",
+        "nickname": "KHAMIN",
+        "dateOfBirth": "23 April 1999",
+        "height": "158",
+        "province": "Khon Kaen",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    },
+    {
+        "name": "JUTHAMAS",
+        "lastname": "KHONTA",
+        "nickname": "KHENG",
+        "dateOfBirth": "26 March 2000",
+        "height": "161",
+        "province": "Samut Prakan",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    },
+    {
+        "name": "VATHUSIRI",
+        "lastname": "PHUWAPUNYASIRI",
+        "nickname": "KORN",
+        "dateOfBirth": "21 January 1999",
+        "height": "163",
+        "province": "Bangkok",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    },
+    {
+        "name": "MAIRA",
+        "lastname": "KUYAMA",
+        "nickname": "MAIRA",
+        "dateOfBirth": "24 February 1997",
+        "height": "153",
+        "province": "Bangkok",
+        "bloodGroup": "A",
+        "Group": "BNK48"
+    },
+    {
+        "name": "NANNAPHAS",
+        "lastname": "LOETNAMCHOETSAKUN",
+        "nickname": "MEWNICH",
+        "dateOfBirth": "11 March 2002",
+        "height": "158",
+        "province": "Samut Prakan",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "PANISA",
+        "lastname": "SRILALOENG",
+        "nickname": "MIND",
+        "dateOfBirth": "6 September 2001",
+        "height": "165",
+        "province": "Nakhon Ratchasima",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "RACHAYA",
+        "lastname": "TUPKUNANON",
+        "nickname": "MINMIN",
+        "dateOfBirth": "20 March 1997",
+        "height": "161",
+        "province": "Bangkok",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "MIORI",
+        "lastname": "OHKUBO",
+        "nickname": "MIORI",
+        "dateOfBirth": "30 September 1998",
+        "height": "153",
+        "province": "Ibaraki, Japan",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    },
+    {
+        "name": "PIMRAPAT",
+        "lastname": "PHADUNGWATANACHOK",
+        "nickname": "MOBILE",
+        "dateOfBirth": "9 July 2002",
+        "height": "159",
+        "province": "Bangkok",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    },
+    {
+        "name": "PRAEWA",
+        "lastname": "SUTHAMPHONG",
+        "nickname": "MUSIC",
+        "dateOfBirth": "24 February 2001",
+        "height": "158",
+        "province": "Bangkok",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "KHAWISARA",
+        "lastname": "SINGPLOD",
+        "nickname": "MYYU",
+        "dateOfBirth": "28 October 1999",
+        "height": "167",
+        "province": "Bangkok",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    },
+    {
+        "name": "MILIN",
+        "lastname": "DOKTHIAN",
+        "nickname": "NAMNEUNG",
+        "dateOfBirth": "11 November 1996",
+        "height": "160",
+        "province": "Sing Buri",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "PICHAYAPA",
+        "lastname": "NATHA",
+        "nickname": "NAMSAI",
+        "dateOfBirth": "26 October 1999",
+        "height": "170",
+        "province": "Chiang Mai",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    },
+    {
+        "name": "DUSITA",
+        "lastname": "KITISARAKULCHAI",
+        "nickname": "NATHERINE",
+        "dateOfBirth": "11 November 1999",
+        "height": "163",
+        "province": "Bangkok",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    },
+    {
+        "name": "CHANYAPUK",
+        "lastname": "NUMPRASOP",
+        "nickname": "NEW",
+        "dateOfBirth": "2 January 2003",
+        "height": "157",
+        "province": "Bangkok",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "WARINRAT",
+        "lastname": "YOLPRASONG",
+        "nickname": "NIKY",
+        "dateOfBirth": "26 January 2005",
+        "height": "159",
+        "province": "Chiang Mai",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    },
+    {
+        "name": "PHATTHARANARIN",
+        "lastname": "MUEANRIT",
+        "nickname": "NINE",
+        "dateOfBirth": "11 November 2000",
+        "height": "162",
+        "province": "Nakhon Sawan",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "MANANYA",
+        "lastname": "KAOJU",
+        "nickname": "NINK",
+        "dateOfBirth": "3 February 2000",
+        "height": "163",
+        "province": "Samut Sakorn",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "KANTEERA",
+        "lastname": "WADCHARATHADSANAKUL",
+        "nickname": "NOEY",
+        "dateOfBirth": "9 April 1997",
+        "height": "158",
+        "province": "Samut Prakan",
+        "bloodGroup": "AB",
+        "Group": "BNK48"
+    },
+    {
+        "name": "NATCHA",
+        "lastname": "KRISDHASIMA",
+        "nickname": "OOM",
+        "dateOfBirth": "29 September 2002",
+        "height": "163",
+        "province": "Bangkok",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    },
+    {
+        "name": "PATCHANAN",
+        "lastname": "JIAJIRACHOTE",
+        "nickname": "ORN",
+        "dateOfBirth": "28 October 1999",
+        "height": "164",
+        "province": "Bangkok",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    },
+    {
+        "name": "PAKWAN",
+        "lastname": "NOIJAIBOON",
+        "nickname": "PAKWAN",
+        "dateOfBirth": "18 February 2000",
+        "height": "167",
+        "province": "Sakon Nakhon",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "JIDARPHA",
+        "lastname": "CHAMCHOOY",
+        "nickname": "PANDA",
+        "dateOfBirth": "10 October 1997",
+        "height": "159",
+        "province": "Nakhon Pathom",
+        "bloodGroup": "A",
+        "Group": "BNK48"
+    },
+    {
+        "name": "SIRIKARN",
+        "lastname": "SHINNAWATSUWAN",
+        "nickname": "PHUKKHOM",
+        "dateOfBirth": "28 February 1998",
+        "height": "165",
+        "province": "Samut Prakan",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "RINRADA",
+        "lastname": "INTHAISONG",
+        "nickname": "PIAM",
+        "dateOfBirth": "4 June 2003",
+        "height": "159",
+        "province": "Saraburi",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "PUNSIKORN",
+        "lastname": "TIYAKORN",
+        "nickname": "PUN",
+        "dateOfBirth": "9 November 2000",
+        "height": "166",
+        "province": "Bangkok",
+        "bloodGroup": "A",
+        "Group": "BNK48"
+    },
+    {
+        "name": "JIRADAPA",
+        "lastname": "INTAJAK",
+        "nickname": "PUPE",
+        "dateOfBirth": "18 January 1998",
+        "height": "160",
+        "province": "Chiang Rai",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "RATAH",
+        "lastname": "CHINKRAJANGKIT",
+        "nickname": "RATAH",
+        "dateOfBirth": "27 March 2002",
+        "height": "156",
+        "province": "Chiang Mai",
+        "bloodGroup": "A",
+        "Group": "BNK48"
+    },
+    {
+        "name": "SAWITCHAYA",
+        "lastname": "KAJONRUNGSILP",
+        "nickname": "SATCHAN",
+        "dateOfBirth": "13 December 2003",
+        "height": "150",
+        "province": "Bangkok",
+        "bloodGroup": "A",
+        "Group": "BNK48"
+    },
+    {
+        "name": "TARISA",
+        "lastname": "PREECHATANGKIT",
+        "nickname": "STANG",
+        "dateOfBirth": "22 October 2003",
+        "height": "164",
+        "province": "Bangkok",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    },
+    {
+        "name": "ISARAPA",
+        "lastname": "THAWATPAKDEE",
+        "nickname": "TARWAAN",
+        "dateOfBirth": "18 December 1996",
+        "height": "156",
+        "province": "Nakhon Pathom",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    },
+    {
+        "name": "KAMONTHIDA ",
+        "lastname": "ROTTHAWINITHI",
+        "nickname": "VIEW",
+        "dateOfBirth": "28 May 2004",
+        "height": "165",
+        "province": "Nonthaburi",
+        "bloodGroup": "B",
+        "Group": "BNK48"
+    },
+    {
+        "name": "WEERAYA",
+        "lastname": "ZHANG",
+        "nickname": "WEE",
+        "dateOfBirth": "23 October 2001",
+        "height": "167",
+        "province": "Chonburi",
+        "bloodGroup": "O",
+        "Group": "BNK48"
+    }
+]

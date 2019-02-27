@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" media="screen" href="style-lab03.css">
+</head>
+
+<body>
+    <header>
+            <h1>BNK48 MEMBERLIST</h1>
+    </header>
+    <div class="searchBar">
+
+        <input type="text" id="search" placeholder="Search...">
+        <button type="button" id="searchBtn">search</button>
+
+        <div class="advsearch">
+            <input type="checkbox" id="advsearchCheckBox"> Advance Search<br>
+        </div>
+    </div>
+
+    <div class="advCheckbox" id="checkboxes" style="display: none;">
+        <input type="checkbox" id="chBoxN" name="name"> Name
+        <input type="checkbox" id="chBoxLN" name="lastname"> Lastname
+        <input type="checkbox" id="chBoxNN" name="nickname"> Nickname
+        <input type="checkbox" id="chBoxDOB" name="dateOfBirth"> Date of Birth
+        <input type="checkbox" id="chBoxP" name="province"> Province
+        <input type="checkbox" id="chBoxH" name="height"> Height
+        <input type="checkbox" id="chBoxBG" name="bloodGroup"> Blood Group
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <table class="table table-striped">
+                <thead>
+                    <th>Name</th>
+                    <th>Lastname</th>
+                    <th>Nickname</th>
+                    <th>Date of Birth</th>
+                    <th>Height</th>
+                    <th>Province</th>
+                    <th>Blood Group</th>
+                </thead>
+                <tbody id="table">
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="footer">
+            <h4>Reference</h4>
+            <p>www.bnk48.com</p>
+            <p>Create by Tanachote Chawanachote 5810450270</p>
+        </div>
+
+    </div>
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="bootstrap.min.js.download"></script>
+    <script>
+        var arr
+        var advStatus = false
+
+        $(document).ready(function () {
+            $.ajax({
+                url: './data.json',
+                success: function (data) {
+                    arr = data
+                    $('#table').text('')
+                    data.forEach(element => {
+                        addDataRowToTable(element)
+                    })
+                }
+            })
+
+            $('#searchBtn').on('click', function() {
+                $('#table').text('')
+                let val = $('#search').val()
+                val = val.toLowerCase()
+                search(val)
+            })
+
+            $('#search').on('keypress', function(e) {
+                if (e.which === 13) {
+                    $('#table').text('')
+                    let val = $(this).val()
+                    val = val.toLowerCase()
+                    search(val)
+                }
+            })
+
+            $('#advsearchCheckBox').on('click', function() {
+                if ($(this).is(':checked')) {
+                    advStatus = true
+                    $('#checkboxes').show()
+                } else {
+                    advStatus = false
+                    $('#checkboxes input:checked').prop('checked', false)
+                    $('#checkboxes').hide()
+                }
+            })
+
+            function search(val) {
+                $('#table').append('<tr>')
+                arr.forEach(element => {
+                    if (val === "") {
+                        addDataRowToTable(element)
+                    }
+                    else if (checkVal(element.name, val, 'name')) {
+                        addDataRowToTable(element)
+                    }
+                    else if (checkVal(element.lastname, val, 'lastname')) {
+                        addDataRowToTable(element)
+                    }
+                    else if (checkVal(element.nickname, val, 'nickname')) {
+                        addDataRowToTable(element)
+                    }
+                    else if (checkVal(element.dateOfBirth, val, 'dateOfBirth')) {
+                        addDataRowToTable(element)
+                    }
+                    else if (checkVal(element.height, val, 'height')) {
+                        addDataRowToTable(element)
+                    }
+                    else if (checkVal(element.province, val, 'province')) {
+                        addDataRowToTable(element)
+                    }
+                    else if (checkVal(element.bloodGroup, val, 'bloodGroup')) {
+                        addDataRowToTable(element)
+                    }
+                })
+            }
+
+            function checkVal(input, val, nameVal = "") {
+                let isFound = input.toLowerCase().includes(val)
+                let isChecked = $('#checkboxes input[name=' + nameVal + ']').is(':checked')
+                return (isFound && !advStatus) || (isFound && isChecked && advStatus)
+            }
+
+            function addDataRowToTable(element) {
+                $('#table').append('<tr>')
+                $('#table').append('<td style="padding: 25px 10px 25px 10px; border: 1px solid #fbf0fa; border-radius: 10px;">' + element.name + '</td>')
+                $('#table').append('<td style="border: 1px solid #fbf0fa; border-radius: 5px;">' + element.lastname + '</td>')
+                $('#table').append('<td style="border: 1px solid #fbf0fa; border-radius: 5px;">' + element.nickname + '</td>')
+                $('#table').append('<td style="border: 1px solid #fbf0fa; border-radius: 5px;">' + element.dateOfBirth + '</td>')
+                $('#table').append('<td style="border: 1px solid #fbf0fa; border-radius: 5px;">' + element.height + ' cm</td>')
+                $('#table').append('<td style="border: 1px solid #fbf0fa; border-radius: 5px;">' + element.province + '</td>')
+                $('#table').append('<td style="border: 1px solid #fbf0fa; border-radius: 5px;">' + element.bloodGroup + '</td>')
+                $('#table').append('</tr>')
+            }
+        })
+    </script>
+</body>
+</html>
